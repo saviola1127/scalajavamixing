@@ -1,0 +1,16 @@
+server:
+  context-path: /scala-boot
+  port: 7777
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: saviola1127
+    url: jdbc:mysql://localhost:3306/imoocbootscala?useSSL=false
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+
